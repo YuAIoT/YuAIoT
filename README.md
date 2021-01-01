@@ -25,15 +25,15 @@ As a technology controller, I hope to ensure using mainstream or cutting-edge te
 YuAIoT Server is an open source, distributed IoT server software. It will be built on the Spring Cloud framework. It is mainly responsible for device connection, device management, device data parsing, data analysis and data processing. It also provide the corresponding API for clients of web client, iOS client, Android client, etc.
 The differences between different kinds of things are often great. When making things connect to the Internet, the models we use in building a system for certain kinds of things are also different. The differences exist objectively and cannot be eliminated. In order to ensure YuAIoT Server can provide connection of all kinds of devices that need to be connected, we use the concept of object model. Platform users can directly establish the corresponding physical model for the devices that need be connected to internet in a visual way according to various needs. After devices are connected to the YuAIot server. The YuAIoT server collects and analyzes the data reported by the device. The analysis rules are specified according to the user's needs. With the parsed data, we need to make use of these data. Therefore, YuAIoT server will also integrate a flexible rule engine, which can easily customize the implementation of device alarm, message push, data forwarding, linkage operation, etc.
 
-**YuAIoT Web **
+**YuAIoT Web**
 
 YuAIoT Web is web client and admin client in YuAIoT plaform. It will base on Node.js and Vue.js. YuAIoT Web provides user login, device data presentation, device control, device management, object model management, rule engine management, user management and other functions
 
-**YuAIoT iOS **
+**YuAIoT iOS**
 
 YuAIoT iOS is the iOS client app, which provides user login, device data presentation, device control, user management and other functions.
 
-**YuAIoT Android **
+**YuAIoT Android**
 
 YuAIoT Android is the Android client app, which provides user login, device data presentation, device control, user management and other functions.
 
